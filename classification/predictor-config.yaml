@@ -1,0 +1,3 @@
+path_to_model: "/mnt/data/psemchyshyn/checkpoints/classification/cross-entropy-10-5-threshold-5-add/checkpoints_256/last.ckpt"
+out_path: "/mnt/data/psemchyshyn/diffusion-info/diffusion-segmentation/reconstruction/cross-entropy10-5-threshold-5-add/test_data"
+input_path: "/mnt/data/psemchyshyn/mvtec-diffusion/test_data"

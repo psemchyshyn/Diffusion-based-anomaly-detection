@@ -1,0 +1,2 @@
+train_folder: '/mnt/store/psemchyshyn/cropped_stitches128/train_data'
+val_folder: '/mnt/store/psemchyshyn/cropped_stitches128/val_data'

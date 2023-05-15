@@ -1,0 +1,7 @@
+train_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion/train_data'
+val_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion/train_data'
+
+test_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion/test_data'
+test_folder_mask: '/mnt/data/psemchyshyn/mvtec-diffusion/test_data_masks'
+test_folder_rec: '/mnt/data/psemchyshyn/diffusion/reconstruction50-5-threshold-50/test'
+category: 'leather'

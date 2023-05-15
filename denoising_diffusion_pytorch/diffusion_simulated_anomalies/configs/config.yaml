@@ -1,0 +1,20 @@
+defaults:
+  - model: ddpm
+  - data: mvtec
+  - anomaly: draem
+
+
+training:
+  epochs: 500
+  batch_size: 8
+  lr: 0.00002
+  ema_decay: 0.995
+  update_ema_every: 10
+  step_start_ema: 2000
+  generate_samples_every_n_epochs: 10
+  acc_grad_batches: 2
+  wandb_project_name: 'updated-diffusion-mvtec'
+  wandb_run_name: 'updated-diffusion-mvtec-l1-simulated_anomalies'
+  save_weight_folder: '/mnt/data/psemchyshyn/checkpoints/updated-diffusion-mvtec-l1-simulated_anomalies/checkpoints_256'
+  save_logs_dir: '/mnt/data/psemchyshyn/diffusion-info/diffusion-l1-unconditional/run_logs'
+  milestone_results_dir: '/mnt/data/psemchyshyn/diffusion-info/diffusion-l1-unconditional/samples'

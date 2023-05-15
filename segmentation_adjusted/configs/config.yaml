@@ -1,0 +1,22 @@
+defaults:
+  - anomaly: draem
+  - data: mvtec
+
+training:
+  epochs: 70
+  batch_size: 32
+  lr: 0.001
+  in_channels: 6
+  out_channels: 2
+  channels: 3
+  image_size: 256
+  noise_amount: 50
+  log_every_n_epoch: 10
+  num_imgs_to_log: 5
+  wandb_project_name: 'diffusion-seg'
+  wandb_run_name: 'cross-entropy-with-50-3-threshold-50'
+  test_output_dir: "/mnt/data/psemchyshyn/diffusion-info/diffusion-segmentation/reconstruction/cross-entropy-50-3-threshold-50/test_data"
+  save_logs_dir: "/home/psemchyshyn/projects/diffusion-ad/segmentation/logs"
+  save_weight_folder: '/mnt/data/psemchyshyn/checkpoints/cross-entropy-with-50-3-threshold-50/checkpoints_256'
+  reconstruction_path: "/mnt/data/psemchyshyn/checkpoints/updated-diffusion-mvtec-l1-self-condition/checkpoints_256/last.ckpt"
+

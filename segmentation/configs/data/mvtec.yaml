@@ -1,0 +1,11 @@
+train_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion-subnetwork/train/all'
+train_folder_mask: '/mnt/data/psemchyshyn/mvtec-diffusion-subnetwork/train/mask'
+train_folder_rec: '/mnt/data/psemchyshyn/diffusion/reconstruction100-3-threshold-30/train'
+
+val_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion-subnetwork/val/all'
+val_folder_mask: '/mnt/data/psemchyshyn/mvtec-diffusion-subnetwork/val/mask'
+val_folder_rec: '/mnt/data/psemchyshyn/diffusion/reconstruction100-3-threshold-30/val'
+
+test_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion/test_data'
+test_folder_mask: '/mnt/data/psemchyshyn/mvtec-diffusion/test_data_masks'
+test_folder_rec: '/mnt/data/psemchyshyn/diffusion/reconstruction100-3-threshold-30/test'

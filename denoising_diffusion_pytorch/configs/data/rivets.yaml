@@ -1,0 +1,2 @@
+train_folder: '/mnt/store/psemchyshyn/cropped_rivets/train_data'
+val_folder: '/mnt/store/psemchyshyn/cropped_rivets/val_data'

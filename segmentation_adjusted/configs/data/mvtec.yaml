@@ -1,0 +1,5 @@
+train_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion/train_data'
+
+val_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion/val_data'
+
+test_folder_images: '/mnt/data/psemchyshyn/mvtec-diffusion/test_data'

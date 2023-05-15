@@ -1,0 +1,2 @@
+train_folder: "/mnt/store/psemchyshyn/Magnetic-tile-defect-datasets/data/train"
+val_folder: "/mnt/store/psemchyshyn/Magnetic-tile-defect-datasets/data/val"

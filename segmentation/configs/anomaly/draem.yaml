@@ -1,0 +1,5 @@
+anomaly_source_path: "/mnt/data/psemchyshyn/mvtec-diffusion/dtd/images"
+p_anomalous: 0.5
+beta:
+  - 0.2
+  - 1.0

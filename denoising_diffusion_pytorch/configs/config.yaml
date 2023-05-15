@@ -1,0 +1,20 @@
+defaults:
+  - model: ddpm
+  - data: mvtec
+
+
+training:
+  epochs: 500
+  batch_size: 8
+  lr: 0.00002
+  ema_decay: 0.995
+  update_ema_every: 10
+  step_start_ema: 2000
+  generate_samples_every_n_epochs: 5
+  acc_grad_batches: 2
+  embedding_folder: '/mnt/data/psemchyshyn/mvtec-diffusion/val_data'
+  wandb_project_name: 'updated-diffusion-mvtec'
+  wandb_run_name: 'updated-diffusion-mvtec-l1-embeddings'
+  save_weight_folder: '/mnt/data/psemchyshyn/checkpoints/updated-diffusion-mvtec-l1-embeddings/checkpoints_256'
+  save_logs_dir: '/home/psemchyshyn/projects/diffusion-ad/updated-diffusion-mvtec/run_logs-l1-embeddings'
+  milestone_results_dir: '/home/psemchyshyn/projects/diffusion-ad/updated-diffusion-mvtec/samples-l1-embeddings'

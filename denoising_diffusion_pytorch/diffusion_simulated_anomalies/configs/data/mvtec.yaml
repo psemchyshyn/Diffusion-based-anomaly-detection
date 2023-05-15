@@ -1,0 +1,2 @@
+train_folder: '/mnt/data/psemchyshyn/mvtec-diffusion/train_data'
+val_folder: '/mnt/data/psemchyshyn/mvtec-diffusion/val_data'

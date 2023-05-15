@@ -1,0 +1,2 @@
+train_folder: '/mnt/store/psemchyshyn/SDNET/data/train'
+val_folder: '/mnt/store/psemchyshyn/SDNET/data/val'

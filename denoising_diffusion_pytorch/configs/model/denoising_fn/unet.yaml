@@ -1,0 +1,12 @@
+dim: 64
+init_dim: null
+out_dim: null
+dim_mults: [1, 2, 4, 8]
+channels: 3
+self_condition: false
+resnet_block_groups: 8
+learned_variance: false
+learned_sinusoidal_cond: false
+random_fourier_features: false
+learned_sinusoidal_dim: 16
+condition_size: 512

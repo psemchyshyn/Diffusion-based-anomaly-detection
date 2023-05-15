@@ -1,0 +1,25 @@
+defaults:
+  - anomaly: draem
+  - data: mvtec
+
+training:
+  epochs: 1
+  batch_size: 32
+  channels: 3
+  image_size: 256
+  num_neighbours: 9
+  sampling_ratio: 0.1
+  layers_enc:
+    - 1
+    - 2
+    - 3
+  layers_dec:
+    - 0
+    - 1
+  wandb_project_name: 'diffusion-embeddings'
+  wandb_run_name: 'test'
+  test_output_dir: "/mnt/data/psemchyshyn/diffusion-info/diffusion-embeddings/features1/test_data_grid"
+  save_logs_dir: "/home/psemchyshyn/projects/diffusion-ad/embeddings/logs"
+  save_weight_folder: '/mnt/data/psemchyshyn/checkpoints/embeddings/checkpoints_256'
+  reconstruction_path: "/mnt/data/psemchyshyn/checkpoints/updated-diffusion-mvtec-l1-self-condition/checkpoints_256/last.ckpt"
+

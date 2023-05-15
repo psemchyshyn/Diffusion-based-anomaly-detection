@@ -1,0 +1,17 @@
+reconstruction:
+  model:
+    path: "/mnt/data/psemchyshyn/checkpoints/updated-diffusion-mvtec-l1-self-condition/checkpoints_256/last.ckpt"
+  data:
+    normal_folder: "/mnt/data/psemchyshyn/mvtec-diffusion/splitted/leather"
+    threshold_limit: 0.8
+    threshold_file_path: "/mnt/data/psemchyshyn/diffusion-info/diffusion-l1-self_condition/reconstruction/leather/threshold/300-350/tensor.pt"
+    input_folder: "/mnt/data/psemchyshyn/mvtec-diffusion/splitted_test/leather"
+    output_folder: "/mnt/data/psemchyshyn/diffusion-info/diffusion-l1-self_condition/reconstruction/leather/rec/without-reconstructed-250-1-threshold-0.8"
+    batch_size: 32
+  params:
+    noise: 250
+    self_condition_steps: 1
+    stop_self_condition_t: 0
+    noise_from_threshold: 300
+    noise_to_threshold: 350
+

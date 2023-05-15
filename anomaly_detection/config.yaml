@@ -1,0 +1,21 @@
+model:
+  data:
+    batch_size: 64
+    train_path: '/mnt/store/psemchyshyn/cropped_stitches128/train_data'
+    val_path: '/mnt/store/psemchyshyn/cropped_stitches128/val_data'
+    results_folder: "/mnt/store/psemchyshyn/checkpoints/rivets/checkpoints_64_classical"
+  params:
+    step: 800
+    channels: 3
+    image_size: 64
+
+reconstruction:
+  data:
+    folder: '/mnt/store/psemchyshyn/cropped_rivets/simulated_anomalies'
+    results_folder: "patch6-resampling-reconstructed-rivets-simulated-anomalies-150"
+  params:
+    noise: 150
+    patch_ratio: 6
+    fill_value: "mean" # mean, reflection, color
+    resampling: 10
+  strategy: 'resampling' # one of standard, without_crop, resampling, border_aware_resampling

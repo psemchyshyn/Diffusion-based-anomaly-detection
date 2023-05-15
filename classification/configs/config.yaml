@@ -1,0 +1,20 @@
+defaults:
+  - anomaly: draem
+  - data: mvtec
+
+training:
+  epochs: 50
+  batch_size: 64
+  lr: 0.001
+  in_channels: 6
+  out_channels: 2
+  channels: 3
+  image_size: 256
+  noise_amount: 10
+  log_every_n_epoch: 5
+  wandb_project_name: 'diffusion-classification'
+  wandb_run_name: 'cross-entropy-10-5-threshold-5'
+  save_logs_dir: "/home/psemchyshyn/projects/diffusion-ad/classification/logs"
+  save_weight_folder: '/mnt/data/psemchyshyn/checkpoints/classification/cross-entropy-10-5-threshold-5-add/checkpoints_256'
+  reconstruction_path: "/mnt/data/psemchyshyn/checkpoints/updated-diffusion-mvtec-l1-self-condition/checkpoints_256/last.ckpt"
+

@@ -1,0 +1,3 @@
+path_to_model: "/mnt/data/psemchyshyn/checkpoints/cross-entropy-with-30-3/checkpoints_256/last.ckpt"
+out_path: "/mnt/data/psemchyshyn/diffusion-info/diffusion-segmentation/reconstruction/cross-entropy30-3/test_data"
+input_path: "/mnt/data/psemchyshyn/mvtec-diffusion/test_data"

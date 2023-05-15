@@ -1,0 +1,2 @@
+train_folder: '/mnt/store/psemchyshyn/capsule/train/good'
+val_folder: '/mnt/store/psemchyshyn/capsule/test/good'

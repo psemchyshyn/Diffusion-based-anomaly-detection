@@ -1,0 +1,14 @@
+defaults:
+  - denoising_fn: unet
+
+diffusion:
+  image_size: 256
+  timesteps: 1000
+  loss_type: 'l1'
+  sampling_timesteps: null
+  objective: "pred_noise"
+  beta_schedule: "sigmoid"
+  ddim_sampling_eta: 0.
+  auto_normalize: true
+  min_snr_loss_weight: false
+  min_snr_gamma: 5
